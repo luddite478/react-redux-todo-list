@@ -1,0 +1,31 @@
+{
+  "name": "redux-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel ./app/index.html ",
+    "build": "cross-env NODE_ENV=production parcel build ./app/index.html --no-minify --public-url /"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.1",
+    "express": "^4.16.3",
+    "parcel-bundler": "^1.7.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1"
+  }
+}

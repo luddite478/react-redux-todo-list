@@ -1,0 +1,7 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  color: rgb(23, 22, 20);
+  font-size: 3vh;
+}

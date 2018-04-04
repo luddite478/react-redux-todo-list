@@ -1,0 +1,19 @@
+form {
+  width: 60vw;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input[type=text] {
+  width:40vw;
+  font-size: 3vh;
+  background-color: rgba(212, 205, 113,0.2);
+}
+input[type=submit],
+button {
+  width:10vw;
+  font-size: 2vh;
+  height: 4vh;
+  overflow: hidden;
+}
